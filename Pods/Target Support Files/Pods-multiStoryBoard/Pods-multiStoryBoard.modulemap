@@ -1,0 +1,6 @@
+framework module Pods_multiStoryBoard {
+  umbrella header "Pods-multiStoryBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module CleanStoryBoard {
+  umbrella header "CleanStoryBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -15,7 +15,7 @@ class TabBarViewVontroller: UITabBarController {
     }
     
     func setupTabs() {
-        let n1 = HomeNavigationController.instance(from: Storyboard.Home)
+        let n1 = HomeNavigationController.instance(from: .Home)
         let n2 = FeedNavigationController.instance(from: .Feed)
         let n3 = AccountNavigationController.instance(from: .Account)
         

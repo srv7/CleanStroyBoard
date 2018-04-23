@@ -1,0 +1,16 @@
+PODS:
+  - CleanStoryBoard (1.0.1)
+
+DEPENDENCIES:
+  - CleanStoryBoard
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CleanStoryBoard
+
+SPEC CHECKSUMS:
+  CleanStoryBoard: 95de590325c80e88d6233b02c634fcf71bd8312d
+
+PODFILE CHECKSUM: 36dc44e7f50b732f22ec85cb16e06e3a15b42f85
+
+COCOAPODS: 1.5.0
