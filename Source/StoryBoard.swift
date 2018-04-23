@@ -8,44 +8,44 @@
 
 import UIKit
 
-struct Storyboard: RawRepresentable, Hashable, Equatable, Comparable {
+public struct Storyboard: RawRepresentable, Hashable, Equatable, Comparable {
     
-    internal var rawValue: String
+    public var rawValue: String
     
-    typealias RawValue = String
+    public typealias RawValue = String
     
-    init?(rawValue: String) {
+    public init?(rawValue: String) {
         self.rawValue = rawValue
     }
     
-    var hashValue: Int {
+    public var hashValue: Int {
         return rawValue.hashValue
     }
     
-    static func < (lhs: Storyboard, rhs: Storyboard) -> Bool {
+    public static func < (lhs: Storyboard, rhs: Storyboard) -> Bool {
         return lhs.rawValue < rhs.rawValue
     }
     
-    var instance: UIStoryboard {
+    public var instance: UIStoryboard {
         return UIStoryboard(name: self.rawValue, bundle: Bundle.main)
     }
     
-    func viewController<T: UIViewController>(viewControllerClass: T.Type) -> T {
+    public func viewController<T: UIViewController>(viewControllerClass: T.Type) -> T {
         let storyBoardID = viewControllerClass.storyBoardID
         return instance.instantiateViewController(withIdentifier: storyBoardID) as! T
     }
     
-    func instantiateInitialViewController() -> UIViewController? {
+    public func instantiateInitialViewController() -> UIViewController? {
         return instance.instantiateInitialViewController()
     }
 }
 
-extension UIViewController {
-    class var storyBoardID: String {
+public extension UIViewController {
+    public class var storyBoardID: String {
         return "\(self)"
     }
     
-    class func instance(from storyBoard: Storyboard?) -> Self {
+    public class func instance(from storyBoard: Storyboard?) -> Self {
         guard let storyBoard = storyBoard  else {
             fatalError("can not find the storyBoard")
         }
