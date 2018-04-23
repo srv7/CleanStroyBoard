@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A5A6C25208D86E4009C0FAA /* AppStoryBoards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A6C24208D86E4009C0FAA /* AppStoryBoards.swift */; };
 		3AD3A8E1206E1CFC00305779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3A8E0206E1CFC00305779 /* AppDelegate.swift */; };
 		3AD3A8E3206E1CFC00305779 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3A8E2206E1CFC00305779 /* HomeViewController.swift */; };
 		3AD3A8E6206E1CFC00305779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD3A8E4206E1CFC00305779 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A5A6C24208D86E4009C0FAA /* AppStoryBoards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryBoards.swift; sourceTree = "<group>"; };
 		3AD3A8DD206E1CFC00305779 /* multiStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD3A8E0206E1CFC00305779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AD3A8E2206E1CFC00305779 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				3AD3A91B206E1F6A00305779 /* NavigationViewController.swift */,
 				3AD3A923206E206400305779 /* TabBarViewVontroller.swift */,
 				3AD3A925206E218A00305779 /* StoryBoard.swift */,
+				3A5A6C24208D86E4009C0FAA /* AppStoryBoards.swift */,
 				3AD3A918206E1F2000305779 /* Home */,
 				3AD3A919206E1F3700305779 /* Feed */,
 				3AD3A91A206E1F3E00305779 /* Account */,
@@ -329,6 +332,7 @@
 				3AD3A91E206E1F8300305779 /* HomeNavigationController.swift in Sources */,
 				3AD3A8E1206E1CFC00305779 /* AppDelegate.swift in Sources */,
 				3AD3A922206E201000305779 /* AccountNavigationController.swift in Sources */,
+				3A5A6C25208D86E4009C0FAA /* AppStoryBoards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
