@@ -34,4 +34,5 @@
     let n3 = AccountNavigationController.instance(from: .Account)
     ```
 
-## CleanStoryBoard is released under an MIT license. See [License.md](https://github.com/srv7/CleanStroyBoard/blob/master/LICENSE) for more information.
+## License
+CleanStoryBoard is released under an MIT license. See [License.md](https://github.com/srv7/CleanStroyBoard/blob/master/LICENSE) for more information.
