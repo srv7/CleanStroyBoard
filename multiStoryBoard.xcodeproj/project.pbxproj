@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A5A6C25208D86E4009C0FAA /* AppStoryBoards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A6C24208D86E4009C0FAA /* AppStoryBoards.swift */; };
+		3A603719208DCB4C006F3023 /* StoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A603718208DCB4C006F3023 /* StoryBoard.swift */; };
 		3AD3A8E1206E1CFC00305779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3A8E0206E1CFC00305779 /* AppDelegate.swift */; };
 		3AD3A8E3206E1CFC00305779 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3A8E2206E1CFC00305779 /* HomeViewController.swift */; };
 		3AD3A8E6206E1CFC00305779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD3A8E4206E1CFC00305779 /* Main.storyboard */; };
@@ -25,7 +26,6 @@
 		3AD3A920206E1FD900305779 /* FeedNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3A91F206E1FD900305779 /* FeedNavigationController.swift */; };
 		3AD3A922206E201000305779 /* AccountNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3A921206E201000305779 /* AccountNavigationController.swift */; };
 		3AD3A924206E206400305779 /* TabBarViewVontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3A923206E206400305779 /* TabBarViewVontroller.swift */; };
-		3AD3A926206E218A00305779 /* StoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3A925206E218A00305779 /* StoryBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		3A5A6C24208D86E4009C0FAA /* AppStoryBoards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryBoards.swift; sourceTree = "<group>"; };
+		3A603718208DCB4C006F3023 /* StoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryBoard.swift; path = Source/StoryBoard.swift; sourceTree = SOURCE_ROOT; };
 		3AD3A8DD206E1CFC00305779 /* multiStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD3A8E0206E1CFC00305779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AD3A8E2206E1CFC00305779 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		3AD3A91F206E1FD900305779 /* FeedNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedNavigationController.swift; sourceTree = "<group>"; };
 		3AD3A921206E201000305779 /* AccountNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountNavigationController.swift; sourceTree = "<group>"; };
 		3AD3A923206E206400305779 /* TabBarViewVontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewVontroller.swift; sourceTree = "<group>"; };
-		3AD3A925206E218A00305779 /* StoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,10 +121,10 @@
 		3AD3A8DF206E1CFC00305779 /* multiStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				3A603718208DCB4C006F3023 /* StoryBoard.swift */,
 				3AD3A8E0206E1CFC00305779 /* AppDelegate.swift */,
 				3AD3A91B206E1F6A00305779 /* NavigationViewController.swift */,
 				3AD3A923206E206400305779 /* TabBarViewVontroller.swift */,
-				3AD3A925206E218A00305779 /* StoryBoard.swift */,
 				3A5A6C24208D86E4009C0FAA /* AppStoryBoards.swift */,
 				3AD3A918206E1F2000305779 /* Home */,
 				3AD3A919206E1F3700305779 /* Feed */,
@@ -324,10 +324,10 @@
 			files = (
 				3AD3A8E3206E1CFC00305779 /* HomeViewController.swift in Sources */,
 				3AD3A924206E206400305779 /* TabBarViewVontroller.swift in Sources */,
+				3A603719208DCB4C006F3023 /* StoryBoard.swift in Sources */,
 				3AD3A915206E1E4400305779 /* FeedViewController.swift in Sources */,
 				3AD3A917206E1E4D00305779 /* AccountViewController.swift in Sources */,
 				3AD3A920206E1FD900305779 /* FeedNavigationController.swift in Sources */,
-				3AD3A926206E218A00305779 /* StoryBoard.swift in Sources */,
 				3AD3A91C206E1F6A00305779 /* NavigationViewController.swift in Sources */,
 				3AD3A91E206E1F8300305779 /* HomeNavigationController.swift in Sources */,
 				3AD3A8E1206E1CFC00305779 /* AppDelegate.swift in Sources */,
